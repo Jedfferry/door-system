@@ -1,0 +1,6 @@
+Added Component: Designator=R7(AXIAL-0.4)
+Added Pin To Net: NetName=VCC Pin=R7-2
+Added Pin To Net: NetName=NetR7_1 Pin=R7-1
+Added Pin To Net: NetName=NetR7_1 Pin=U1-31
+Added Net: Name=NetR7_1
+Added Member To Class: ClassName=DCS Member=Component R7 Res2

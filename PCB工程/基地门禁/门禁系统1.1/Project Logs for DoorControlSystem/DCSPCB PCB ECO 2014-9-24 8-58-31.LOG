@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=NetP1_3 Pin=U2-9
+Removed Pin From Net: NetName=NetP1_4 Pin=U2-10
+Change Component DesignItemId : Designator=P1 Old DesignItemId=DCON2 New DesignItemId=DCON3
+Change Component Footprint: Designator=P1 Old Footprint=DCON2 New Footprint=DCON3
+Change Component Comment : Designator=P1 Old Comment=DCON2 New Comment=DCON3
+Added Pin To Net: NetName=NetP1_3 Pin=U1-12
+Added Pin To Net: NetName=NetP1_4 Pin=U2-9
+Added Pin To Net: NetName=NetP1_5 Pin=P1-5
+Added Pin To Net: NetName=NetP1_5 Pin=U2-10
+Added Net: Name=NetP1_5

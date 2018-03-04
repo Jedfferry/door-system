@@ -1,0 +1,3 @@
+Added Component: Designator=D3(LED-0)
+Added Pin To Net: NetName=NetD3_2 Pin=D3-2
+Added Member To Class: ClassName=DCS Member=Component D3 LED0

@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=NetP1_1 Pin=U1-10
+Removed Pin From Net: NetName=NetP1_3 Pin=U1-12
+Change Component DesignItemId : Designator=P1 Old DesignItemId=DCON3 New DesignItemId=Header 3
+Change Component Footprint: Designator=P1 Old Footprint=DCON3 New Footprint=HDR1X3
+Change Component Comment : Designator=P1 Old Comment=DCON3 New Comment=Header 3
+Added Component: Designator=P2(HDR1X2)
+Added Pin To Net: NetName=NetP1_3 Pin=U1-10
+Added Pin To Net: NetName=NetP1_1 Pin=U1-12
+Added Pin To Net: NetName=NetP2_1 Pin=P2-1
+Added Pin To Net: NetName=NetP2_1 Pin=U2-10
+Added Net: Name=NetP2_1
+Added Pin To Net: NetName=NetP2_2 Pin=P2-2
+Added Pin To Net: NetName=NetP2_2 Pin=U2-9
+Added Net: Name=NetP2_2
+Added Member To Class: ClassName=DCS Member=Component P2 Header 2

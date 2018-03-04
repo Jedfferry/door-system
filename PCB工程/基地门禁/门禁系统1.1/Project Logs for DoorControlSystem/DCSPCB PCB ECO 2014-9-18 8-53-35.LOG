@@ -1,0 +1,4 @@
+Added Component: Designator=C10(cap)
+Added Pin To Net: NetName=VCC Pin=C10-1
+Added Pin To Net: NetName=GND Pin=C10-2
+Added Member To Class: ClassName=DCS Member=Component C10 Cap

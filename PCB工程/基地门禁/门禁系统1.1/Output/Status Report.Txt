@@ -1,0 +1,10 @@
+Output: Protel
+Type  : ProtelNetlist
+From  : Project [DoorControlSystem.PrjPcb]
+   Generated File[DCS.NET]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 8:12:27 On 2014/12/22

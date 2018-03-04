@@ -1,0 +1,19 @@
+Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~DoorControlSystem.PrjPcb|ReportField=ProjectFullPath~M:\门禁系统1.1\DoorControlSystem.PrjPcb|ReportField=Title~Bill of Materials For Project [DoorControlSystem.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~32|ReportField=ReportTime~7:27:05|ReportField=ReportDate~2014/9/15|ReportField=ReportDateTime~2014/9/15 7:27:05|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~2014/9/15|ReportField=CurrentTime~7:23:39|ReportField=Date~|ReportField=DocumentFullPathAndName~M:\门禁系统1.1\DCS.SchDoc|ReportField=DocumentName~DCS.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~2014/9/15|ReportField=Organization~|ReportField=ProjectName~DoorControlSystem.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~DoorControlSystem.PrjPcb|ReportField=DataSourceFullPath~M:\门禁系统1.1\DoorControlSystem.PrjPcb
+Cap|Capacitor, Capacitor, 104, Capacitor, Capacitor, Capacitor, Capacitor|C1, C2, C4, C6, C7, C8, C9|cap|Cap
+Cap2|Polarized Capacitor (Axial)|C3, C5|cap2|Cap2
+Diode 1N5408|3 Amp Medium Power Silicon Rectifier Diode|D1|DO-201AD|Diode 1N5408
+LED0|Typical INFRARED GaAs LED|D2, D3, D5|LED-0|LED0
+Diode 1N4148|High Conductance Fast Diode|D4|DO-35|Diode 1N4148
+POWER_DC5V||J1|POWER_DC5V|POWER_DC5V
+DC9|Receptacle Assembly, 9 Position, Right Angle|J2|DSUB1.385-2H9|DC9
+JPW||J3|JPW|JPW
+Relay|HLS8L-DC5V-S-C|K1|Relay|Relay
+Speaker|Loudspeaker|LS1|Speaker|Speaker
+DCON2||P1|DCON2|DCON2
+2N3906|PNP8550|Q1, Q2|TO-92A|2N3906
+Res2|Resistor|R1, R2, R3, R4, R5|AXIAL-0.4|Res2
+SW-PB|Switch|S1|SW_PB|SW-PB
+SW3|SPDT Subminiature Toggle Switch, Right Angle Mounting, Vertical Actuation|S2|SW3|SW3
+MCU|STC89C52RC|U1|MCU|MCU
+MAX232E||U2|MAX232|MAX232E
+XTAL|Crystal Oscillator|Y1|R38|XTAL

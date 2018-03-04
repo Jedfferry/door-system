@@ -1,0 +1,5 @@
+Added Component: Designator=J2(DC9)
+Added Pin To Net: NetName=NetJ2_2 Pin=J2-2
+Added Pin To Net: NetName=NetJ2_3 Pin=J2-3
+Added Pin To Net: NetName=GND Pin=J2-5
+Added Member To Class: ClassName=DCS Member=Component J2 DC9

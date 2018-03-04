@@ -1,0 +1,11 @@
+Added Component: Designator=K2(CRelay)
+Added Pin To Net: NetName=NetK1_1 Pin=K1-1
+Added Pin To Net: NetName=NetK1_1 Pin=K2-2
+Added Net: Name=NetK1_1
+Added Pin To Net: NetName=NetK1_2 Pin=K1-2
+Added Pin To Net: NetName=NetK1_2 Pin=K2-3
+Added Net: Name=NetK1_2
+Added Pin To Net: NetName=NetK1_3 Pin=K1-3
+Added Pin To Net: NetName=NetK1_3 Pin=K2-1
+Added Net: Name=NetK1_3
+Added Member To Class: ClassName=DCS Member=Component K2 CRelay

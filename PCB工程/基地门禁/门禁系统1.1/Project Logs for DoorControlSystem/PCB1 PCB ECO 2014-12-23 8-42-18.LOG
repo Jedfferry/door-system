@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=NetC12_1 Pin=J5-1
+Removed Pin From Net: NetName=NetC11_1 Pin=J5-3
+Added Pin To Net: NetName=NetC11_1 Pin=J5-1
+Added Pin To Net: NetName=NetC12_1 Pin=J5-3
+Added Member To Class: ClassName=DCS Member=Component S2 SW6

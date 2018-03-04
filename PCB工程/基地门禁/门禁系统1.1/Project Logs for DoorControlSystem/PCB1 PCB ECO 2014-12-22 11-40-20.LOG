@@ -1,0 +1,6 @@
+Change Component Footprint: Designator=C11 Old Footprint=Cap_100uF New Footprint=CAP_1000UF
+Added Pin To Net: NetName=NetC11_1 Pin=J4-1
+Added Pin To Net: NetName=GND Pin=J4-2
+Added Pin To Net: NetName=NetC12_1 Pin=J5-1
+Added Pin To Net: NetName=GND Pin=J5-2
+Added Pin To Net: NetName=NetC11_1 Pin=J5-3

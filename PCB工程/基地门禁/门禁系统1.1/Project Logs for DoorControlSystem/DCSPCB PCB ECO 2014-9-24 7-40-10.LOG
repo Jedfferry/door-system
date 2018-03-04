@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=VCC Pin=D3-1
+Added Component: Designator=R6(AXIAL-0.4)
+Added Pin To Net: NetName=VCC Pin=R6-1
+Added Member To Class: ClassName=DCS Member=Component R6 Res2
