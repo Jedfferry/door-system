@@ -1,13 +1,3 @@
-//*****************************************************   
-//*     FineName£º    Main.c                          *
-//*     Created:      2015.1.1                        * 
-//*     Last Change:  2015.1.15                        *
-//*     Author:       FanChangFu                      *         
-//*     Compiler:     KEIL C51 uVision4.0             *
-//*     CPU:          STC89C52RC                      *
-//*     Description:  DoorSystems                     *     				
-//*     OSC use 12MHz crystal.                        *
-//*****************************************************
 
 #include "Main.h"
 
