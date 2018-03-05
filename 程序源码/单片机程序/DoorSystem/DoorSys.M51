@@ -640,8 +640,8 @@ SYMBOL TABLE OF MODULE:  DoorSys (?C_STARTUP)
   C:03EDH         LINE#         356
   C:03F8H         LINE#         357
   C:03F8H         LINE#         358
-  C:03FBH         LINE#         359
-  C:03FBH         LINE#         362
+  C:03H         LINE#         359
+  C:03H         LINE#         362
   C:0400H         LINE#         363
   C:0400H         LINE#         364
   C:0417H         LINE#         365

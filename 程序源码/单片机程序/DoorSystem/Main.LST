@@ -34,7 +34,7 @@ stmt level    source
   25   3                ET1=0;                                  //½ûÖ¹¶¨Ê±Æ÷1ÖÐ¶Ï£¬±ÜÃâ¸ÉÈÅ             
   26   3                SearchCardData();                       //ÏòÉäÆµÄ£¿é·¢ËÍ¶ÁÈ¡¿¨Æ¬EEPROMÖ¸Áî      
   27   3                TR0=1;                                  //Æô¶¯¶¨Ê±Æ÷1£¨¶¨Ê±Æ÷1¶¨Ê±Ô¼300ms£©
-  28   3                while( tf0_flag==FALSE);                //Ò»Ö±whileÑ­»·£¬µÈ´ý300ms£¨300msºó£¬¶¨Ê±Æ÷1ÖÐ¶Ï´¦Àíº¯ÊýÖÐ»áÉ
+  28   3                while( tf0_flag==FALSE);                //Ò»Ö±whileÑ­»·£¬µÈ´ý300ms£¨300msºó£¬¶¨Ê±Æ÷1ÖÐ¶Ï´¦Àíº¯ÊýÖÐ»á?
              -èÖÃtf0_flag=TRUE)£»ÑÓÊ±300msÄ¿µÄÊÇµÈ´ý´®¿Ú½ÓÊÕÍêÉäÆµÄ£¿é·¢»ØÀ´µÄÊý¾Ý¡£
   29   3                tf0_flag=FALSE;                         //tf0_flagÖØÐÂ±ê¼ÇÎªFALSE
   30   3                if(recv_command_success_flag==SUCCESS)  //ÈçºÎÕýÈ·½ÓÊÕµ½ÉäÆµÄ£¿é·¢»ØÀ´µÄÊý¾Ý£¨¿¨ÐòÁÐºÅ),×öÏÂÃæ´¦Àí¡£
@@ -174,7 +174,7 @@ stmt level    source
  157   2            TR1=1;          //ÖØÐÂÆô¶¯¶¨Ê±Æ÷1
  158   2            tf1_num=0;      //tf1_numÇåÁã£¬¿ªÊ¼ÏÂÒ»ÂÖ¼ÆÊý
  159   2         }
- 160   1         TH1=0;   //¶¨Ê±Æ÷ÖÐ¶Ïºó£¬ÖØÐÂÉè¶¨ÏÂÒ»´Î¼ÆÊ±µÄ³õÖµ±
+ 160   1         TH1=0;   //¶¨Ê±Æ÷ÖÐ¶Ïºó£¬ÖØÐÂÉè¶¨ÏÂÒ»´Î¼ÆÊ±µÄ³õÖµ?
  161   1         TL1=0;
  162   1      }
  163          
@@ -215,7 +215,7 @@ stmt level    source
              -ÓÐÁ½ÖÖÇé¿ö£º0xbb(±íÊ¾0xaaºÍ0xbbÊÇÖ¡ÃüÁîÍ·),0x00(±íÊ¾0xaaÊÇÊý¾Ý£¬²»ÊÇÖ¡ÃüÁîÍ·)
  194          SerialPort_interrupt() interrupt 4
  195          {
- 196   1          unsigned char recv_byte;  //¸Ã±äÁ¿ÓÃÓÚÔÝÊ±±£´æ´®¿Ú½ÓÊÕµÄÒ»¸ö×Ö½ÚÊý¾ÝÚ
+ 196   1          unsigned char recv_byte;  //¸Ã±äÁ¿ÓÃÓÚÔÝÊ±±£´æ´®¿Ú½ÓÊÕµÄÒ»¸ö×Ö½ÚÊý¾Ý?
  197   1          unsigned char check_sum;  //Ò»Ö¡Êý¾Ý½ÓÊÕÍê±Ïºó£¬¸Ã±äÁ¿ÓÃÓÚÒì»òÐ£Ñé
  198   1          int i;
  199   1          EA=0;     //Îª·ÀÖ¹¸ÉÈÅ£¬ÏÈ¹Ø±Õ×ÜÖÐ¶Ï  
@@ -227,7 +227,7 @@ stmt level    source
  205   2             {
  206   3                if(recv_byte==0xbb)  //ÉÏ´Î½ÓÊÕµÄ0xaaÊÇÖ¡ÃüÁîÍ·
  207   3                {
- 208   4                    recv_aa=FALSE;   //±ê¼ÇFALSE,ÏÂÒ»´ÎÅÐ¶ÏÊ±ÓÃÓÚÖ¸Ê¾Ç°Ò»´Î½ÓÊÕµÄ²»ÊÇ0xaaÏ
+ 208   4                    recv_aa=FALSE;   //±ê¼ÇFALSE,ÏÂÒ»´ÎÅÐ¶ÏÊ±ÓÃÓÚÖ¸Ê¾Ç°Ò»´Î½ÓÊÕµÄ²»ÊÇ0xaa?
  209   4                    recv_num=0;      //»º´ærecv_buf²»±£´æÃüÁîÍ·0xaa0xbb,recv_numÖµÉèÎª0Ïàµ±Çå³ýµôÖ®Ç°±£´æµÄ0xaa0xbb
  210   4                }
  211   3                else if(recv_byte==0x00) //ÉÏ´Î½ÓÊÕµÄ0xaaÊÇÊý¾Ý£¨0x00ÊÇÎªÁËÇø±ðÖ¡ÃüÁîÍ·0xaa0xbb¶øÌí¼Ó½øÈ¥£¬²»ÊÇÎÒÃÇ
@@ -249,7 +249,7 @@ stmt level    source
  226   3                recv_buf[recv_num]=recv_byte;//½«½ÓÊÕµ½µÄÊý¾Ý±£´æµ½»º´ærecv_buf
  227   3                recv_num=recv_num+1;         //Ã¿½ÓÊÕ±£´æÒ»¸ö×Ö½ÚÊý¾Ý£¬recv_numÔö1
  228   3                if(recv_num>recv_buf[0])     //recv_buf±£´æµÄÊÇÊý¾ÝÖ¡µÄ³¤¶È×Ö£¬µ±recv_num´óÓÚ³¤¶È×ÖÊ±£¬Ïàµ±ÓÚµ±Ç°½ÓÊÕ
-             -µÄÊý¾ÝÊÇÖ¡µÄ×îºóÒ»¸ö×Ö½ÚÊý¾Ý£¬¼´Ò»Ö¡Êý¾Ý½ÓÊÕÍê±ÏÝ
+             -µÄÊý¾ÝÊÇÖ¡µÄ×îºóÒ»¸ö×Ö½ÚÊý¾Ý£¬¼´Ò»Ö¡Êý¾Ý½ÓÊÕÍê±Ï?
  229   3                {
  230   4                    check_sum=0;
  231   4                    for(i=0;i<recv_buf[0]+1;i++) //¶ÔÒ»Ö¡Êý¾Ý½øÐÐÒì»òÐ£Ñé
@@ -258,7 +258,7 @@ stmt level    source
 
  233   5                       check_sum=check_sum^recv_buf[i];
  234   5                    }
- 235   4                    if(check_sum==0)            //Ö¡µÄ×îºóÒ»¸ö×Ö½ÚÎª¼ìÑéÂë£¬ÉÏÃæ½«Ð£ÑéÂëÒ»Æð½øÐÐÒì»òÔËËã£¬Èô½ÓÊÕµÄÊý¾ÝÃ
+ 235   4                    if(check_sum==0)            //Ö¡µÄ×îºóÒ»¸ö×Ö½ÚÎª¼ìÑéÂë£¬ÉÏÃæ½«Ð£ÑéÂëÒ»Æð½øÐÐÒì»òÔËËã£¬Èô½ÓÊÕµÄÊý¾Ý?
              -»ÓÐ´íÎó£¬ÄÇcheck_sumµÃÖµÒ»¶¨ÊÇ0
  236   4                    {
  237   5                       if(EppromHandle()==FALSE)
@@ -269,7 +269,7 @@ stmt level    source
  242   4                    recv_num=0;
  243   4                    recv_aa=FALSE;
  244   4                }
- 245   3                if(recv_num>=max_num)   //ÅÐ¶Ï½ÓÊÕµÄÊý¾Ý×Ö½ÚÊýÊÇ·ñ´óÓÚ»º´ærecv_buf£¬·ÀÖ¹ÄÚ´æÒç³öÚ
+ 245   3                if(recv_num>=max_num)   //ÅÐ¶Ï½ÓÊÕµÄÊý¾Ý×Ö½ÚÊýÊÇ·ñ´óÓÚ»º´ærecv_buf£¬·ÀÖ¹ÄÚ´æÒç³ö?
  246   3                {
  247   4                   recv_num=0;
  248   4                   recv_aa=FALSE;
@@ -317,10 +317,10 @@ stmt level    source
  287   1         unsigned char command_set_out1_1[6]={0xaa,0xbb,0x03,0x16,0x01,0x14}; //Ö¸Áî£¬¿ØÖÆÉäÆµÄ£¿éµÄOUT1Òý½ÅÊä³ö
              -µÍµçÆ½
  288   1         int i;
- 289   1         ES=0;                                                                //Ê¹ÓÃ²éÑ¯·½Ê½·¢ËÍ´®¿ÚÊý¾ÝÊ±£¬Òª¹Ø±
+ 289   1         ES=0;                                                                //Ê¹ÓÃ²éÑ¯·½Ê½·¢ËÍ´®¿ÚÊý¾ÝÊ±£¬Òª¹Ø?
 C51 COMPILER V7.02a   MAIN                                                                 01/15/2015 15:58:45 PAGE 6   
 
-             -Õ´®¿ÚÖÐ¶Ï£¬·ñÔò·¢ËÍ²»ÕýÈ·
+             -Õ´®¿ÚÖÐ¶Ï£¬·ñÔò·¢ËÍ²»ÕýÈ?
  290   1         for(i=0;i<6;i++)                                                     //²éÑ¯·½Ê½·¢ËÍÊý¾Ý
  291   1         {
  292   2             TI=0;
@@ -337,7 +337,7 @@ stmt level    source
  303          {
  304   1         int i;
  305   1         unsigned char command_search_card[5]={0xaa,0xbb,0x02,0x20,0x22};//Ñ°¿¨Ö¸Áî
- 306   1         recv_command_success_flag=FAIL;                                 //·¢ËÍÖ¸ÁîÖ®Ç°ÏÈÉèÖÃFAIL,µ±´®¿ÚÖÐ¶Ï´¦Àíº
+ 306   1         recv_command_success_flag=FAIL;                                 //·¢ËÍÖ¸ÁîÖ®Ç°ÏÈÉèÖÃFAIL,µ±´®¿ÚÖÐ¶Ï´¦Àí?
              -¯ÊýÖÐÕýÈ·½ÓÊÕÒ»Ö¡Êý¾ÝºóÔÙÉèÖÃÎªSUCCESS,¹©mainº¯Êý×öÅÐ¶ÏÊ¹ÓÃ
  307   1         ClearBuf();                                                     //Í¨¹ý´®¿ÚÏòÉäÆµÄ£¿é·¢ËÍÖ¸Áîºó»áÓëÊý¾Ý·µ
              -»Ø£¬ÔÚÕâÀïÌáÇ°¶Ô»º´ærecv_bufÇåÁã
@@ -355,8 +355,8 @@ stmt level    source
  318          
  319          
  320          /*---ÏòÉäÆµÄ£¿é·¢ËÍ¶Á¿¨Æ¬EEPROMÊý¾Ý---*/
- 321            //¶Á¿¨Æ¬EEPROMÖÐµÄµÚ10,14,18,22¿éÖÐµÄÊý¾Ý£¬¿éÖÐ±£´æµÄÊý¾Ý xx xx xx xx xx xx xx fb 10 25 52 xx xx xx xx x
-             -x (xx¿ÉÎªÈÎÒâÊý¾Ý£¬fb 10 25 52²ÅÊÇÓÃÀ´×öÅÐ¶Ï)
+ 321            //¶Á¿¨Æ¬EEPROMÖÐµÄµÚ10,14,18,22¿éÖÐµÄÊý¾Ý£¬¿éÖÐ±£´æµÄÊý¾Ý xx xx xx xx xx xx xx  10 25 52 xx xx xx xx x
+             -x (xx¿ÉÎªÈÎÒâÊý¾Ý£¬ 10 25 52²ÅÊÇÓÃÀ´×öÅÐ¶Ï)
  322            //1ºÅÃÅ¶ÔÓ¦µÚ10¿é£¬2ºÅÃÅ¶ÔÓ¦µÚ14¿é£¬3ºÅÃÅ¶ÔÓ¦µÚ18¿é£¬4ºÅÃÅ¶ÔÓ¦µÚ22¿é
  323          void SearchCardData()
  324          {
@@ -370,7 +370,7 @@ stmt level    source
  329   1         //unsigned char command_search_card_data[13]={0xaa, 0xbb, 0x0a, 0x21, 0x00, 0x0a, 0xff, 0xff, 0xff, 0xff
              -, 0x10, 0x26, 0x17};  //4ºÅÃÅ
  330   1         
- 331   1         recv_command_success_flag=FAIL;           //·¢ËÍÖ¸ÁîÖ®Ç°ÏÈÉèÖÃFAIL,µ±´®¿ÚÖÐ¶Ï´¦Àíº¯ÊýÖÐÕýÈ·½ÓÊÕÒ»Ö¡Êý¾Ýº
+ 331   1         recv_command_success_flag=FAIL;           //·¢ËÍÖ¸ÁîÖ®Ç°ÏÈÉèÖÃFAIL,µ±´®¿ÚÖÐ¶Ï´¦Àíº¯ÊýÖÐÕýÈ·½ÓÊÕÒ»Ö¡Êý¾Ý?
              -óÔÙÉèÖÃÎªSUCCESS,¹©mainº¯Êý×öÅÐ¶ÏÊ¹ÓÃ
  332   1         ClearBuf();                               //Í¨¹ý´®¿ÚÏòÉäÆµÄ£¿é·¢ËÍÖ¸Áîºó»áÓëÊý¾Ý·µ»Ø£¬ÔÚÕâÀïÌáÇ°¶Ô»º´ære
              -cv_bufÇåÁã
@@ -406,7 +406,7 @@ stmt level    source
  358   2             return FAIL;
  359   2         }
  360   1         
- 361   1         //´ÓEEPROMÖÐ¶Á¿¨ÐòÁÐºÅÝ
+ 361   1         //´ÓEEPROMÖÐ¶Á¿¨ÐòÁÐºÅ?
  362   1         for(i=0;i<4;i++)
  363   1         {
  364   2            Haddr=0x20+(index*4+i)/256;
@@ -426,11 +426,11 @@ stmt level    source
  377   1      }
  378          
  379          /*---Ð£Ñé¿¨Æ¬ÖÐµÄÊý¾ÝÊÇ·ñÕýÈ·---*/
- 380            //ÈôÕýÈ·¶Áµ½EEPROMÖÐµÄÊý¾Ý£¬recv_buf[0:18]±£´æµÄÊý¾ÝÊÇ£º ³¤¶È×Ö ÃüÁî×Ö xx xx xx xx xx xx xx fb 10 25 52 
+ 380            //ÈôÕýÈ·¶Áµ½EEPROMÖÐµÄÊý¾Ý£¬recv_buf[0:18]±£´æµÄÊý¾ÝÊÇ£º ³¤¶È×Ö ÃüÁî×Ö xx xx xx xx xx xx xx  10 25 52 
              -xx xx xx xx xx
  381          error MatchCardData()
  382          {
- 383   1         if((recv_buf[9]==0xfb)&&(recv_buf[10]==0x10)&&(recv_buf[11]==0x25)&&(recv_buf[12]==0x52)) //Ð£Ñé¿¨Æ¬ÖÐµÄ
+ 383   1         if((recv_buf[9]==0x)&&(recv_buf[10]==0x10)&&(recv_buf[11]==0x25)&&(recv_buf[12]==0x52)) //Ð£Ñé¿¨Æ¬ÖÐµÄ
              -Êý¾ÝÊÇ·ñÕýÈ·£¬ÕýÈ··µ»ØSUCCESS,´íÎó·µ»ØFAIL
  384   1         {
  385   2            index=recv_buf[2]*256+recv_buf[3];
